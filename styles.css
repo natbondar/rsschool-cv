@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+}
+footer, header, main{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    height: 3rem;
+    background-color: rgba(255, 255, 240, 0.24);
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 3rem;
+    background-color: rgb(241, 228, 216);
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+main{
+    background-color: rgba(173, 230, 252, 0.226);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    width: 400px;
+    padding: 15px 0;
+    border: 1px dashed grey;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-top: 5px;
+}
+footer li{
+    height: 50%;
+}
+.logo{
+    background-image: url("https://rs.school/images/rs_school_js.svg");
+    width: 100px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
